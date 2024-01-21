@@ -22,6 +22,3 @@ def send_message(to: str, message: str) -> None:
         body=message,
         to=to
     )
-
-
-send_message('whatsapp:+919558515995', 'hi')
